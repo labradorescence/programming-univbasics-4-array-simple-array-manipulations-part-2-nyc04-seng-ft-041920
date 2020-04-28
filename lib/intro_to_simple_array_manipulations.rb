@@ -20,5 +20,5 @@ end
 =end
 
 def using_insert (arr, ele)
-  arr.insert(ele)
+  arr.push(ele)
 end
