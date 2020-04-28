@@ -20,5 +20,6 @@ end
 =end
 
 def using_insert (arr, ele)
-  puts arr.insert(3, ele)
+  new_array = arr.insert(3, ele)
+  puts new_array
 end
