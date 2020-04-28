@@ -19,7 +19,8 @@ describe "using_insert" do
 end
 =end
 
-def using_insert (arr, ele)
-  new_array = arr.insert(3, ele)
+def using_insert (list_of_programming_languages, another_language)
+  new_array = list_of_programming_languages.insert(3, another_language)
   p new_array
 end
+
