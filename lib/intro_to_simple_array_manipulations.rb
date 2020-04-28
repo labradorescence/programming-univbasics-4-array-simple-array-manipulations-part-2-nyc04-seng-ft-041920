@@ -7,5 +7,6 @@ def using_insert (list_of_programming_languages, another_language)
   p new_array
 end
 
-def using_uniq (arr, )
+def using_uniq (arr)
+  arr.uniq()
 end
