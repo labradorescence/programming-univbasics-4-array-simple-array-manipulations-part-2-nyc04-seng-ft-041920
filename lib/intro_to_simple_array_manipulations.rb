@@ -20,5 +20,5 @@ end
 =end
 
 def using_insert (arr, ele)
-  puts arr.insert(4, ele)
+  puts Array.insert(4, ele)
 end
